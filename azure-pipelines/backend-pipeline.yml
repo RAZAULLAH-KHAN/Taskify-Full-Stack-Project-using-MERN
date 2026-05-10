@@ -1,4 +1,3 @@
-\# Backend CI/CD Pipeline
 trigger:
   branches:
     include:
@@ -14,7 +13,6 @@ variables:
     value: '$(Build.BuildId)'
 
 stages:
-# Stage 1: Build & Push Docker Image
 - stage: Build
   displayName: 'Build and Push Docker Image'
   jobs:
@@ -50,7 +48,6 @@ stages:
           $(imageTag)
           latest
 
-# Stage 2: Deploy to App Service
 - stage: DeployProd
   displayName: 'Deploy to App Service'
   dependsOn: Build
