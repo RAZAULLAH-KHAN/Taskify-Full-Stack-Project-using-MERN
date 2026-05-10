@@ -1,4 +1,4 @@
-# Backend CI/CD Pipeline
+\# Backend CI/CD Pipeline
 trigger:
   branches:
     include:
@@ -28,7 +28,7 @@ stages:
       displayName: 'Login to ACR'
       inputs:
         command: login
-        containerRegistry: $(AZURE_SUBSCRIPTION)
+        containerRegistry: acr-service-connection
         
     - task: Docker@2
       displayName: 'Build Backend Image'
