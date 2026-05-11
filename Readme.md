@@ -111,5 +111,5 @@ Backend images successfully pushed with automated build tags.
 Azure SQL Database is online with populated schema tables.
 
 ##  Security & Best Practices
-- No Secrets: All sensitive strings (DB passwords, registry credentials) are stored in Azure DevOps Variable Groups.
+- No Secrets: All sensitive strings (DB passwords, registry credentials) are stored in Azure DevOps Variable Groups[![alt text](image-3.png)]
 - GitIgnore: `.env` files are ignored to prevent credential leakage.
