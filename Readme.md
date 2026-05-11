@@ -96,7 +96,7 @@ The Cloud-Based Task Manager is an innovative solution that brings efficiency an
 - Frontend (Static Web App): [https://gray-coast-0b1b2d300.7.azurestaticapps.net/log-in]
 - Backend API: https://app-taskapp-backend-raza.azurewebsites.net/api/tasks
 
-## 🛠️ Project Evidence
+##  Project Evidence
 
 ### 1. Successful Multi-Stage Pipeline
 [Pipeline Proof]([![alt text](image.png)])
@@ -110,6 +110,6 @@ Backend images successfully pushed with automated build tags.
 ![SQL Proof]([![alt text](image-2.png)])
 Azure SQL Database is online with populated schema tables.
 
-## 🔒 Security & Best Practices
+##  Security & Best Practices
 - No Secrets: All sensitive strings (DB passwords, registry credentials) are stored in Azure DevOps Variable Groups.
 - GitIgnore: `.env` files are ignored to prevent credential leakage.
